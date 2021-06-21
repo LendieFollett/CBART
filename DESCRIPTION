@@ -1,12 +1,17 @@
 Package: CBART
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Bayesian Additive Regression Trees for Estimating Human Capabilities
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Authors@R: c(person('Lendie', 'Follett', role='aut', 
+  email = 'lendie.follett@drake.edu'),
+  person('Heath', 'Henderson', role=c('aut'), 
+  email='heath.henderson@drake.edu'))
+Maintainer: Lendie Follett <lendie.follett@drake.edu>
+Description:  Bayesian Additive Regression Trees for Capabilities (CBART) used for predicting 
+    potentials and capability sets and estimating heterogeneous treatment effects.  
 License: What license is it under?
+Suggests: MASS, ggplot2, knitr, rmarkdown
+VignetteBuilder: knitr
 Encoding: UTF-8
 LazyData: true
 Imports: Rcpp (>= 1.0.6)
