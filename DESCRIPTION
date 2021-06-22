@@ -2,9 +2,9 @@ Package: CBART
 Type: Package
 Title: Bayesian Additive Regression Trees for Estimating Human Capabilities
 Version: 0.1.0
-Authors@R: c(person('Lendie', 'Follett', role='aut', 
+Authors@R: c(person("Lendie", "Follett", role=c("aut", "cre"), 
   email = 'lendie.follett@drake.edu'),
-  person('Heath', 'Henderson', role=c('aut'), 
+  person('Heath', 'Henderson', role=c('aut'),
   email='heath.henderson@drake.edu'))
 Maintainer: Lendie Follett <lendie.follett@drake.edu>
 Description:  Bayesian Additive Regression Trees for Capabilities (CBART) used for predicting 

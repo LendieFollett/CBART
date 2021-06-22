@@ -1,3 +1,4 @@
 exportPattern("^[[:alpha:]]+")
 importFrom(Rcpp, evalCpp)
 useDynLib(CBART, .registration = TRUE)
+importFrom("stats", "lm", "qchisq", "quantile", "sd")
